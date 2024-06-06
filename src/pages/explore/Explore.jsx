@@ -33,7 +33,7 @@ const Explore = () => {
     const [pageNum, setPageNum] = useState(1);
     const [loading, setLoading] = useState(false);
     const [genre, setGenre] = useState(null); // Change to a single genre
-    const [sortby, setSortby] = useState(null);
+     const [sortby, setSortby] = useState(null); 
     const { mediaType } = useParams();
 
     const { data: genresData } = useFetch(`/genre/${mediaType}/list`);
