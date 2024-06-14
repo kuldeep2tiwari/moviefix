@@ -91,7 +91,7 @@ const Explore = () => {
     return (
         <div>
             <div className="pageHeader">
-                <div className="logo" onClick={() => navigate("/")}>
+            <div className="logo" onClick={() => navigate("/")}>
                     <img src={logo} alt="" />
                 </div>
                 <div className="filters">

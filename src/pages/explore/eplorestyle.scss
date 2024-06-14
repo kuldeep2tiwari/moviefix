@@ -3,16 +3,8 @@
     background-color: rgb(18, 18, 18);
 
 }
-.yearMovies {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 10px;
-    margin-top: 20px;
 
-    @media (max-width: 768px) {
-        grid-template-columns: repeat(2, 1fr); // 2 movies per row on mobile
-    }
-}
+
 h2{
     color: #fff;
     margin-bottom: 5px;
@@ -35,11 +27,7 @@ h2{
         font-size: 24px;
         color: var(--black-light);
     }
-    h2{
-        color: #fff;
-        margin-bottom: 5px;
-        margin-top: 5rem;
-    }
+   
    
     }
     .pageTitle {

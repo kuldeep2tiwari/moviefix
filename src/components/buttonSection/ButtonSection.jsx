@@ -1,7 +1,7 @@
 // components/buttonSection/ButtonSection.js
 
 import React, { useEffect, useRef } from 'react';
-import './style.scss';
+import './Btnstyle.scss';
 
 const ButtonSection = ({ genresData, selectedGenre, onChange }) => {
     const buttonSectionRef = useRef(null);
