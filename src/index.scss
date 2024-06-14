@@ -13,6 +13,7 @@
     --black: #04152d;
     --black2: #041226;
     --black3: #020c1b;
+    --black4: rgb(18,18,18);
     --black-lighter: #1c4b91;
     --black-light: #173d77;
     --pink: #da2f68;
@@ -27,7 +28,7 @@
 }
 
 body {
-    background-color: var(--black);
+    background-color: var(--black4);
 }
 
 ::-webkit-scrollbar {
