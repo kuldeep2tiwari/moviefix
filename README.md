@@ -1,3 +1,3 @@
-# moviefix
-For the locatal envierment - downlaod the project then open in the VSCode and run the project using commond "npm run dev"  
-Live project link 
+For the local environment - download the project, then open it in VSCode and run the project using the command npm run dev.
+
+Live project link: https://moviefix-eizi.vercel.app/
